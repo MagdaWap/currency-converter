@@ -1,3 +1,4 @@
+![money gif](images/money.gif)
 ## Description
 One of my first coding projects. It’s a simple currency converter. 
 You can change Polish zloty into three currencies here ( GBP British pound, EUR Euro or USD American dollar).
