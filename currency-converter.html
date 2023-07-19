@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class=html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walutowy</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <form class="js-form" id="form">
+        <fieldset class="fieldset">
+            <legend class="fieldset__legend">
+                <h1 class=form__header>Kalkulator walutowy</h1>
+            </legend>
+            <p>
+                <label>
+                    <span class="label__amount"> Kwota*</span>
+                    <input class="js-amount label__text" placeholder="Wpisz kwotę w pln" type="number" required> PLN
+                </label>
+            </p>
+            <p>
+                <label class="form__currency"> Waluta <select class="js-currency" name=currency>
+                        <option value="GBP">GBP Funt Brytyjski</option>
+                        <option value="EUR">EUR Euro</option>
+                        <option value="USD">USD Dolar Amerykański</option>
+                    </select></label>
+            </p>
+            <p>
+                <button class="form__button" input type="submit" value="Wyślij">Przelicz</button>
+            </p>
+            <p><span class="js-result"><strong>0.00</strong></span></p>
+        </fieldset>
+        <p class="form__info">
+            <label>Kursy walut pochodzą ze strony <a
+                    href="https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/"></a>https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/</label>
+        </p>
+    </form>
+</body>
+
+</html>

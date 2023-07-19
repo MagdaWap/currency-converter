@@ -1,0 +1,61 @@
+.html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    width: 1000px;
+    margin: auto;
+    font-family: "Noto Serif", sans-serif;   
+}
+
+.fieldset__legend {
+    color:rgb(36, 106, 136);
+    font:"Noto Serif";
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+
+.label__amount {
+    padding: 5px;
+    margin: 5px;
+    color:rgb(36, 106, 136);
+    font:"Noto Serif";
+    font-size: 20px; 
+}
+
+.form__currency {
+    padding: 5px;
+    margin: 5px;
+    color:rgb(36, 106, 136);
+    font:"Noto Serif";
+    font-size: 20px;
+}
+
+.label__text {
+    padding: 5px;
+    margin: 5px;
+    font:"Noto Serif";
+    font-size: 20px; 
+}
+
+.form__button {
+    font-weight: bold;
+    margin: 2px;
+    border-color: white;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #f3f2f8;
+    background-color: rgb(36, 106, 136);
+}
+.form__result {
+    padding: 5px;
+    margin: 5px;
+    font:"Noto Serif";
+    font-size: 20px; 
+}
