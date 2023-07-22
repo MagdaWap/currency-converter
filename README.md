@@ -15,7 +15,7 @@ You can change Polish zloty into three currencies here ( GBP British pound, EUR 
 This folder contains a style.css file. It defines individual elements to create the layout of an HTML document.
 
 ## Java Script
-This folder contains a script.js file. I’m starting to learn JS, so there is a simple interactive convertion. When you enter the pln Mount, choose currency you want to convert and just enter the button „Przelicz”. The amount is displayed below.
+This folder contains a script.js file. I’m starting to learn JS, so there is a simple interactive convertion. When you enter the pln amount, choose currency you want to convert and just enter the button „Przelicz”. The amount is displayed below.
 
 ## Author
 Magdalena Wapińska
