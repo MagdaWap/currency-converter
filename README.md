@@ -5,7 +5,7 @@ You can change Polish zloty into three currencies here ( GBP British pound, EUR 
 
 ## Applied technologies
 -	HTML
-- JavaScript
+- JavaScript (EE6+ features)
 - CSS
 - BEM convention
 -	Normalize.css
