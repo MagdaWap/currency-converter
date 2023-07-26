@@ -45,6 +45,4 @@
         formElement.addEventListener("submit", onFormSubmit);
     };
 
-    init();
-
 }
